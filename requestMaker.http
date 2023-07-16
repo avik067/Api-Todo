@@ -1,14 +1,14 @@
 
-GET http://localhost:3000/todos/?priority=LOW
+GET http://localhost:3500/todos/
 
 ###
 
 
-GET http://localhost:3000/todos/3/
+GET http://localhost:3500/todos/3/
 
 ###
 
-POST http://localhost:3000/todos/
+POST http://localhost:3500/todos/
 Content-Type: application/json
 
 {
@@ -20,7 +20,7 @@ Content-Type: application/json
 
 ###
 
-PUT http://localhost:3000/todos/2/
+PUT http://localhost:3500/todos/2/
 Content-Type: application/json
 
   {
@@ -30,5 +30,5 @@ Content-Type: application/json
 ###
 
 
-DELETE http://localhost:3000/todos/2/
+DELETE http://localhost:3500/todos/2/
 

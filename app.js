@@ -14,8 +14,8 @@ const dbPath = path.join(__dirname, "todoApplication.db");
 const listenAndinitializeDb = async () => {
   try {
     db = await open({ filename: dbPath, driver: sqlite3.Database });
-    app.listen(3000, () => {
-      console.log("Server is running at  : http://localhost:3000/");
+    app.listen(3500, () => {
+      console.log("Server is running at  : http://localhost:3500/");
     });
   } catch (err) {
     console.log(`DB Error :${err.message}`);
