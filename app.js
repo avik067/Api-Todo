@@ -25,7 +25,14 @@ const listenAndinitializeDb = async () => {
 listenAndinitializeDb();
 ////////////
 
+
 // GET 1
+
+app.get("/" ,(req,res) => {
+
+  res.send("Hi there")
+})
+// GET 1.5
 
 app.get("/todos/", async (request, response) => {
   const { status = "", priority = "", search_q = "" } = request.query;
